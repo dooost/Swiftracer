@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315C83B225E2A380003E876F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C83B125E2A380003E876F /* AppDelegate.swift */; };
+		315C83B425E2A380003E876F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C83B325E2A380003E876F /* ViewController.swift */; };
+		315C83B625E2A381003E876F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315C83B525E2A381003E876F /* Assets.xcassets */; };
+		315C83B925E2A381003E876F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315C83B725E2A381003E876F /* Main.storyboard */; };
+		315C83C525E2A381003E876F /* Swiftracer_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315C83C425E2A381003E876F /* Swiftracer_macOSTests.swift */; };
+		315C83EF25E2A656003E876F /* SwiftRayTracer in Frameworks */ = {isa = PBXBuildFile; productRef = 315C83EE25E2A656003E876F /* SwiftRayTracer */; };
+		31B3DA3325F8064700279CA8 /* RenderRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3DA3225F8064700279CA8 /* RenderRunner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		315C83C125E2A381003E876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315C83A625E2A380003E876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315C83AD25E2A380003E876F;
+			remoteInfo = "Swiftracer-macOS";
+		};
+		315C83CC25E2A381003E876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315C83A625E2A380003E876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315C83AD25E2A380003E876F;
+			remoteInfo = "Swiftracer-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315C83AE25E2A380003E876F /* Swiftracer-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swiftracer-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315C83B125E2A380003E876F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		315C83B325E2A380003E876F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		315C83B525E2A381003E876F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315C83B825E2A381003E876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		315C83BA25E2A381003E876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315C83BB25E2A381003E876F /* Swiftracer_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swiftracer_macOS.entitlements; sourceTree = "<group>"; };
+		315C83C025E2A381003E876F /* Swiftracer-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftracer-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315C83C425E2A381003E876F /* Swiftracer_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftracer_macOSTests.swift; sourceTree = "<group>"; };
+		315C83C625E2A381003E876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315C83CB25E2A381003E876F /* Swiftracer-macOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swiftracer-macOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		315C83E625E2A456003E876F /* SwiftRayTracer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftRayTracer; path = ../SwiftRayTracer; sourceTree = "<group>"; };
+		31B3DA3225F8064700279CA8 /* RenderRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderRunner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315C83AB25E2A380003E876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315C83EF25E2A656003E876F /* SwiftRayTracer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315C83BD25E2A381003E876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315C83C825E2A381003E876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315C83A525E2A380003E876F = {
+			isa = PBXGroup;
+			children = (
+				315C83E625E2A456003E876F /* SwiftRayTracer */,
+				315C83B025E2A380003E876F /* Swiftracer-macOS */,
+				315C83C325E2A381003E876F /* Swiftracer-macOSTests */,
+				315C83AF25E2A380003E876F /* Products */,
+				315C83ED25E2A656003E876F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		315C83AF25E2A380003E876F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315C83AE25E2A380003E876F /* Swiftracer-macOS.app */,
+				315C83C025E2A381003E876F /* Swiftracer-macOSTests.xctest */,
+				315C83CB25E2A381003E876F /* Swiftracer-macOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315C83B025E2A380003E876F /* Swiftracer-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				315C83B125E2A380003E876F /* AppDelegate.swift */,
+				315C83B325E2A380003E876F /* ViewController.swift */,
+				31B3DA3225F8064700279CA8 /* RenderRunner.swift */,
+				315C83B525E2A381003E876F /* Assets.xcassets */,
+				315C83B725E2A381003E876F /* Main.storyboard */,
+				315C83BA25E2A381003E876F /* Info.plist */,
+				315C83BB25E2A381003E876F /* Swiftracer_macOS.entitlements */,
+			);
+			path = "Swiftracer-macOS";
+			sourceTree = "<group>";
+		};
+		315C83C325E2A381003E876F /* Swiftracer-macOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				315C83C425E2A381003E876F /* Swiftracer_macOSTests.swift */,
+				315C83C625E2A381003E876F /* Info.plist */,
+			);
+			path = "Swiftracer-macOSTests";
+			sourceTree = "<group>";
+		};
+		315C83ED25E2A656003E876F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315C83AD25E2A380003E876F /* Swiftracer-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315C83D425E2A381003E876F /* Build configuration list for PBXNativeTarget "Swiftracer-macOS" */;
+			buildPhases = (
+				315C83AA25E2A380003E876F /* Sources */,
+				315C83AB25E2A380003E876F /* Frameworks */,
+				315C83AC25E2A380003E876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swiftracer-macOS";
+			packageProductDependencies = (
+				315C83EE25E2A656003E876F /* SwiftRayTracer */,
+			);
+			productName = "Swiftracer-macOS";
+			productReference = 315C83AE25E2A380003E876F /* Swiftracer-macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		315C83BF25E2A381003E876F /* Swiftracer-macOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315C83D725E2A381003E876F /* Build configuration list for PBXNativeTarget "Swiftracer-macOSTests" */;
+			buildPhases = (
+				315C83BC25E2A381003E876F /* Sources */,
+				315C83BD25E2A381003E876F /* Frameworks */,
+				315C83BE25E2A381003E876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315C83C225E2A381003E876F /* PBXTargetDependency */,
+			);
+			name = "Swiftracer-macOSTests";
+			productName = "Swiftracer-macOSTests";
+			productReference = 315C83C025E2A381003E876F /* Swiftracer-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		315C83CA25E2A381003E876F /* Swiftracer-macOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315C83DA25E2A381003E876F /* Build configuration list for PBXNativeTarget "Swiftracer-macOSUITests" */;
+			buildPhases = (
+				315C83C725E2A381003E876F /* Sources */,
+				315C83C825E2A381003E876F /* Frameworks */,
+				315C83C925E2A381003E876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315C83CD25E2A381003E876F /* PBXTargetDependency */,
+			);
+			name = "Swiftracer-macOSUITests";
+			productName = "Swiftracer-macOSUITests";
+			productReference = 315C83CB25E2A381003E876F /* Swiftracer-macOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315C83A625E2A380003E876F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					315C83AD25E2A380003E876F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					315C83BF25E2A381003E876F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 315C83AD25E2A380003E876F;
+					};
+					315C83CA25E2A381003E876F = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 315C83AD25E2A380003E876F;
+					};
+				};
+			};
+			buildConfigurationList = 315C83A925E2A380003E876F /* Build configuration list for PBXProject "Swiftracer-macOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 315C83A525E2A380003E876F;
+			productRefGroup = 315C83AF25E2A380003E876F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315C83AD25E2A380003E876F /* Swiftracer-macOS */,
+				315C83BF25E2A381003E876F /* Swiftracer-macOSTests */,
+				315C83CA25E2A381003E876F /* Swiftracer-macOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315C83AC25E2A380003E876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315C83B625E2A381003E876F /* Assets.xcassets in Resources */,
+				315C83B925E2A381003E876F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315C83BE25E2A381003E876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315C83C925E2A381003E876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315C83AA25E2A380003E876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315C83B425E2A380003E876F /* ViewController.swift in Sources */,
+				315C83B225E2A380003E876F /* AppDelegate.swift in Sources */,
+				31B3DA3325F8064700279CA8 /* RenderRunner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315C83BC25E2A381003E876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315C83C525E2A381003E876F /* Swiftracer_macOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315C83C725E2A381003E876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315C83C225E2A381003E876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315C83AD25E2A380003E876F /* Swiftracer-macOS */;
+			targetProxy = 315C83C125E2A381003E876F /* PBXContainerItemProxy */;
+		};
+		315C83CD25E2A381003E876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315C83AD25E2A380003E876F /* Swiftracer-macOS */;
+			targetProxy = 315C83CC25E2A381003E876F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		315C83B725E2A381003E876F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315C83B825E2A381003E876F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		315C83D225E2A381003E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		315C83D325E2A381003E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		315C83D525E2A381003E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swiftracer-macOS/Swiftracer_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63HL499WZT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Swiftracer-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dooost.Swiftracer-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		315C83D625E2A381003E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Swiftracer-macOS/Swiftracer_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63HL499WZT;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Swiftracer-macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dooost.Swiftracer-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		315C83D825E2A381003E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63HL499WZT;
+				INFOPLIST_FILE = "Swiftracer-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dooost.Swiftracer-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftracer-macOS.app/Contents/MacOS/Swiftracer-macOS";
+			};
+			name = Debug;
+		};
+		315C83D925E2A381003E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63HL499WZT;
+				INFOPLIST_FILE = "Swiftracer-macOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dooost.Swiftracer-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swiftracer-macOS.app/Contents/MacOS/Swiftracer-macOS";
+			};
+			name = Release;
+		};
+		315C83DB25E2A381003E876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63HL499WZT;
+				INFOPLIST_FILE = "Swiftracer-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dooost.Swiftracer-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Swiftracer-macOS";
+			};
+			name = Debug;
+		};
+		315C83DC25E2A381003E876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 63HL499WZT;
+				INFOPLIST_FILE = "Swiftracer-macOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dooost.Swiftracer-macOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Swiftracer-macOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315C83A925E2A380003E876F /* Build configuration list for PBXProject "Swiftracer-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315C83D225E2A381003E876F /* Debug */,
+				315C83D325E2A381003E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315C83D425E2A381003E876F /* Build configuration list for PBXNativeTarget "Swiftracer-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315C83D525E2A381003E876F /* Debug */,
+				315C83D625E2A381003E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315C83D725E2A381003E876F /* Build configuration list for PBXNativeTarget "Swiftracer-macOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315C83D825E2A381003E876F /* Debug */,
+				315C83D925E2A381003E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315C83DA25E2A381003E876F /* Build configuration list for PBXNativeTarget "Swiftracer-macOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315C83DB25E2A381003E876F /* Debug */,
+				315C83DC25E2A381003E876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		315C83EE25E2A656003E876F /* SwiftRayTracer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftRayTracer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 315C83A625E2A380003E876F /* Project object */;
+}
