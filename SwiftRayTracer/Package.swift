@@ -23,9 +23,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "SwiftRayTracerTests",
-            dependencies: ["SwiftRayTracer"]),
-        .testTarget(
-            name: "SwiftRayTracerPerformanceTests",
-            dependencies: ["SwiftRayTracer"]),
+            dependencies: ["SwiftRayTracer"])
     ]
 )
